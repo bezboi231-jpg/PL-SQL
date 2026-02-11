@@ -1,0 +1,11 @@
+SQL> select *from salary;
+
+     EMPID ENAME               DEPTNO     SALARY       COMM                     
+---------- --------------- ---------- ---------- ----------                     
+       101 Booker                  10       1000          0                     
+       102 Amos                    20       2000          0                     
+       103 Abraham                 30       3000          0                     
+       104 Jacob                   40       4000          0                     
+       105 Mike                    50       5000          0                     
+
+SQL> spool off

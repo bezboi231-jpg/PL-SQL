@@ -1,0 +1,28 @@
+SQL> select *from marks;
+
+    ROLLNO NAME               M1         M2         M3         M4      TOTAL    
+---------- ---------- ---------- ---------- ---------- ---------- ----------    
+       PER RESLUT GRADE                                                         
+---------- ------ ------                                                        
+         1 Amos               50         60         70         80          0    
+         0 Pass   B                                                             
+                                                                                
+         2 Booker             90         80         70         60          0    
+         0 pass   B                                                             
+                                                                                
+         3 Abraham            50         60         70         60          0    
+         0 Fail   D                                                             
+                                                                                
+
+    ROLLNO NAME               M1         M2         M3         M4      TOTAL    
+---------- ---------- ---------- ---------- ---------- ---------- ----------    
+       PER RESLUT GRADE                                                         
+---------- ------ ------                                                        
+         4 Mike               40         38         89         70          0    
+         0 Fail   F                                                             
+                                                                                
+         5 Jacob              43         76         34         23         15    
+         0 Fail   F                                                             
+                                                                                
+
+SQL> spool off
