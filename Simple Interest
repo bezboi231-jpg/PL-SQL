@@ -1,0 +1,15 @@
+---program to calculate simple interest
+setserver on
+DECLARE
+    p NUMBER :=&amp;p;
+    r NUMBER := &amp;r; -- Rate of interest
+    n NUMBER := &amp;n; -- Time in years
+    SI NUMBER;
+BEGIN
+  SI := (p * r * n ) / 100;
+    DBMS_OUTPUT.PUT_LINE(&#39;Principal Amount: &#39; || p_principal);
+    DBMS_OUTPUT.PUT_LINE(&#39;Rate of Interest: &#39; || p_rate || &#39;%&#39;);
+    DBMS_OUTPUT.PUT_LINE(&#39;Time Period: &#39; || p_time || &#39; years&#39;);
+    DBMS_OUTPUT.PUT_LINE(&#39;Simple Interest: &#39; || SI);
+END;
+/
